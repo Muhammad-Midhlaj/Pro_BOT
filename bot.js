@@ -1672,13 +1672,11 @@ DiscordJS.Emoji.prototype.convertToString = function() {
 
 //---------------------------------------------------------------------
 // Start Bot
-//---------------------------------------------------------------------
-const client = new Discord.Client();
+//--------------------------------------------------------------------
 
 
 
  
-
 client.on('message', message => {
 
     if (message.content === 'adi') {
