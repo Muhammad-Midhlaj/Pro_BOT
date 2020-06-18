@@ -1674,16 +1674,4 @@ DiscordJS.Emoji.prototype.convertToString = function() {
 // Start Bot
 //--------------------------------------------------------------------
 
-
-
- 
-client.on('message', message => {
-
-    if (message.content === 'adi') {
-
-       message.reply('idi');
-
-       }
-
-});
 Files.startBot();
